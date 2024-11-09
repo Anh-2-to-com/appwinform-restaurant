@@ -1,0 +1,16 @@
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\BLL.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\BLL.pdb
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DAL.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DTO.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DAL.pdb
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DTO.pdb
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DTO.dll.config
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DocumentFormat.OpenXml.xml
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\obj\Debug\BLL.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\BLL\obj\Debug\BLL.pdb

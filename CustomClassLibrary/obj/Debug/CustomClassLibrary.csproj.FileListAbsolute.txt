@@ -1,0 +1,6 @@
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\CustomClassLibrary\bin\Debug\CustomClassLibrary.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\CustomClassLibrary\bin\Debug\CustomClassLibrary.pdb
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\CustomClassLibrary\obj\Debug\CustomClassLibrary.csproj.AssemblyReference.cache
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\CustomClassLibrary\obj\Debug\CustomClassLibrary.csproj.CoreCompileInputs.cache
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\CustomClassLibrary\obj\Debug\CustomClassLibrary.dll
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\CustomClassLibrary\obj\Debug\CustomClassLibrary.pdb
