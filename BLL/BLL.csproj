@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoGenerateID.cs" />
+    <Compile Include="KhachHangBLL.cs" />
     <Compile Include="ManHinhBLL.cs" />
     <Compile Include="MonAnBLL.cs" />
     <Compile Include="NguoiDungBLL.cs" />

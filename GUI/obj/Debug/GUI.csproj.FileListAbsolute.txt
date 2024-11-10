@@ -33,3 +33,4 @@ E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormSuaThong
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormThucDon.resources
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormThemMonAn.resources
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormSuaMonAn.resources
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormKhachHang.resources

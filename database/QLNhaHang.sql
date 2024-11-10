@@ -999,7 +999,12 @@ select * from QL_NhomNguoiDung
 select * from QL_NguoiDungNhomNguoiDung
 select * from NhanVien
 select * from QL_PhanQuyen
+
 select * from nhanvien
 select * from CTHD
+select * from monan
+select * from ban
+select * from KHACHHANG
+
 
 INSERT INTO NhanVien(ID_NV,TenNV,NGAYVAOLAM,SDT,Chucvu,ID_ND,ID_NQL,Tinhtrang) VALUES ('NV001','Admin','2024-11-08','0838033234','Quan ly','ND001', null, N'Đang làm việc')

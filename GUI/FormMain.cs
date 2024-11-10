@@ -35,6 +35,15 @@ namespace GUI
             this.menuItemNhanSu.Click += MenuItemNhanSu_Click;
             this.menuItemLogout.Click += MenuItemLogout_Click;
             this.menuItemThucDon.Click += MenuItemThucDon_Click;
+            this.menuItemKhachHang.Click += MenuItemKhachHang_Click;
+        }
+
+        private void MenuItemKhachHang_Click(object sender, EventArgs e)
+        {
+            FormKhachHang frm = new FormKhachHang();
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
         }
 
         private void MenuItemThucDon_Click(object sender, EventArgs e)

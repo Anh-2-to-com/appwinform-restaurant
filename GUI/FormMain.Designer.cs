@@ -39,9 +39,8 @@
             this.menuItemKhachHang = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemThucDon = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemHoaDon = new System.Windows.Forms.ToolStripMenuItem();
-            this.quảnLýMónĂnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuItemLogout = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemTK = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItemLogout = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +50,6 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuItemHT,
             this.quảnLýBànToolStripMenuItem,
-            this.quảnLýMónĂnToolStripMenuItem,
             this.menuItemTK,
             this.menuItemLogout});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -113,9 +111,9 @@
             this.menuItemHoaDon});
             this.quảnLýBànToolStripMenuItem.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quảnLýBànToolStripMenuItem.Name = "quảnLýBànToolStripMenuItem";
-            this.quảnLýBànToolStripMenuItem.Size = new System.Drawing.Size(194, 28);
+            this.quảnLýBànToolStripMenuItem.Size = new System.Drawing.Size(119, 28);
             this.quảnLýBànToolStripMenuItem.Tag = "MH002";
-            this.quảnLýBànToolStripMenuItem.Text = "Nghiệp vụ quản lý";
+            this.quảnLýBànToolStripMenuItem.Text = "Nghiệp vụ";
             // 
             // menuItemNhanSu
             // 
@@ -141,14 +139,13 @@
             this.menuItemHoaDon.Size = new System.Drawing.Size(283, 28);
             this.menuItemHoaDon.Text = "Quản lý hóa đơn";
             // 
-            // quảnLýMónĂnToolStripMenuItem
+            // menuItemTK
             // 
-            this.quảnLýMónĂnToolStripMenuItem.BackColor = System.Drawing.Color.Bisque;
-            this.quảnLýMónĂnToolStripMenuItem.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quảnLýMónĂnToolStripMenuItem.Name = "quảnLýMónĂnToolStripMenuItem";
-            this.quảnLýMónĂnToolStripMenuItem.Size = new System.Drawing.Size(173, 28);
-            this.quảnLýMónĂnToolStripMenuItem.Tag = "MH003";
-            this.quảnLýMónĂnToolStripMenuItem.Text = "Quản lý món ăn";
+            this.menuItemTK.BackColor = System.Drawing.Color.Bisque;
+            this.menuItemTK.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuItemTK.Name = "menuItemTK";
+            this.menuItemTK.Size = new System.Drawing.Size(117, 28);
+            this.menuItemTK.Text = "Tài khoản";
             // 
             // menuItemLogout
             // 
@@ -157,14 +154,6 @@
             this.menuItemLogout.Name = "menuItemLogout";
             this.menuItemLogout.Size = new System.Drawing.Size(120, 28);
             this.menuItemLogout.Text = "Đăng xuất";
-            // 
-            // menuItemTK
-            // 
-            this.menuItemTK.BackColor = System.Drawing.Color.Bisque;
-            this.menuItemTK.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuItemTK.Name = "menuItemTK";
-            this.menuItemTK.Size = new System.Drawing.Size(117, 28);
-            this.menuItemTK.Text = "Tài khoản";
             // 
             // FormMain
             // 
@@ -193,7 +182,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuItemQLMH;
         private System.Windows.Forms.ToolStripMenuItem menuItemQLPQ;
         private System.Windows.Forms.ToolStripMenuItem quảnLýBànToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem quảnLýMónĂnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menuItemND;
         private System.Windows.Forms.ToolStripMenuItem menuItemNhanSu;
         private System.Windows.Forms.ToolStripMenuItem menuItemKhachHang;
