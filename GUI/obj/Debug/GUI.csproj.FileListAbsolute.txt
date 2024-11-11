@@ -2,7 +2,6 @@ E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\GUI.exe.config
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\GUI.exe
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\GUI.pdb
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.Properties.Resources.resources
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
@@ -13,7 +12,6 @@ E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\DTO.dll
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\BLL.pdb
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\DTO.pdb
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\DTO.dll.config
-E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.csproj.CopyComplete
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.FormLogin.resources
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\WindowsFormsCustomLibrary.dll
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\bin\Debug\DAL.dll
@@ -34,3 +32,7 @@ E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormThucDon.
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormThemMonAn.resources
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormSuaMonAn.resources
 E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormKhachHang.resources
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormDetailKhachHang.resources
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.csproj.Up2Date
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormViewHoaDonKH.resources
+E:\Nam_4\HK1\PTPM_AI\DoAnPTPM_AI\GUI\obj\Debug\GUI.AdminManagerment.FormDetailHoaDon.resources

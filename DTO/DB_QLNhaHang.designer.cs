@@ -645,7 +645,7 @@ namespace DTO
 		
 		private int _SOLUONG;
 		
-		private System.Nullable<decimal> _THANHTIEN;
+		private System.Nullable<decimal> _DONGIA;
 		
 		private EntityRef<HOADON> _HOADON;
 		
@@ -661,8 +661,8 @@ namespace DTO
     partial void OnID_MONANChanged();
     partial void OnSOLUONGChanging(int value);
     partial void OnSOLUONGChanged();
-    partial void OnTHANHTIENChanging(System.Nullable<decimal> value);
-    partial void OnTHANHTIENChanged();
+    partial void OnDONGIAChanging(System.Nullable<decimal> value);
+    partial void OnDONGIAChanged();
     #endregion
 		
 		public CTHD()
@@ -740,22 +740,22 @@ namespace DTO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_THANHTIEN", DbType="Decimal(10,2)")]
-		public System.Nullable<decimal> THANHTIEN
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONGIA", DbType="Decimal(10,2)")]
+		public System.Nullable<decimal> DONGIA
 		{
 			get
 			{
-				return this._THANHTIEN;
+				return this._DONGIA;
 			}
 			set
 			{
-				if ((this._THANHTIEN != value))
+				if ((this._DONGIA != value))
 				{
-					this.OnTHANHTIENChanging(value);
+					this.OnDONGIAChanging(value);
 					this.SendPropertyChanging();
-					this._THANHTIEN = value;
-					this.SendPropertyChanged("THANHTIEN");
-					this.OnTHANHTIENChanged();
+					this._DONGIA = value;
+					this.SendPropertyChanged("DONGIA");
+					this.OnDONGIAChanged();
 				}
 			}
 		}

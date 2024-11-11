@@ -32,7 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnUpdateKH = new System.Windows.Forms.Button();
+            this.btnViewHD = new System.Windows.Forms.Button();
+            this.btnViewKH = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtTimKiem = new CustomClassLibrary.CustomPlaceholderTextbox();
             this.dgvKH = new System.Windows.Forms.DataGridView();
@@ -72,7 +73,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Bisque;
-            this.panel2.Controls.Add(this.btnUpdateKH);
+            this.panel2.Controls.Add(this.btnViewHD);
+            this.panel2.Controls.Add(this.btnViewKH);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.dgvKH);
             this.panel2.Controls.Add(this.label1);
@@ -81,20 +83,35 @@
             this.panel2.Size = new System.Drawing.Size(1208, 548);
             this.panel2.TabIndex = 38;
             // 
-            // btnUpdateKH
+            // btnViewHD
             // 
-            this.btnUpdateKH.BackColor = System.Drawing.Color.White;
-            this.btnUpdateKH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdateKH.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateKH.Image")));
-            this.btnUpdateKH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdateKH.Location = new System.Drawing.Point(1016, 27);
-            this.btnUpdateKH.Name = "btnUpdateKH";
-            this.btnUpdateKH.Size = new System.Drawing.Size(174, 47);
-            this.btnUpdateKH.TabIndex = 38;
-            this.btnUpdateKH.Text = "Sửa thông tin";
-            this.btnUpdateKH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnUpdateKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnUpdateKH.UseVisualStyleBackColor = false;
+            this.btnViewHD.BackColor = System.Drawing.Color.White;
+            this.btnViewHD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewHD.Image = ((System.Drawing.Image)(resources.GetObject("btnViewHD.Image")));
+            this.btnViewHD.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnViewHD.Location = new System.Drawing.Point(799, 27);
+            this.btnViewHD.Name = "btnViewHD";
+            this.btnViewHD.Size = new System.Drawing.Size(181, 47);
+            this.btnViewHD.TabIndex = 39;
+            this.btnViewHD.Text = "Xem hóa đơn";
+            this.btnViewHD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnViewHD.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnViewHD.UseVisualStyleBackColor = false;
+            // 
+            // btnViewKH
+            // 
+            this.btnViewKH.BackColor = System.Drawing.Color.White;
+            this.btnViewKH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewKH.Image = ((System.Drawing.Image)(resources.GetObject("btnViewKH.Image")));
+            this.btnViewKH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnViewKH.Location = new System.Drawing.Point(1009, 27);
+            this.btnViewKH.Name = "btnViewKH";
+            this.btnViewKH.Size = new System.Drawing.Size(181, 47);
+            this.btnViewKH.TabIndex = 38;
+            this.btnViewKH.Text = "Xem thông tin";
+            this.btnViewKH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnViewKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnViewKH.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -172,7 +189,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormKhachHang";
             this.Text = "FormKhachHang";
             this.panel1.ResumeLayout(false);
@@ -192,12 +209,13 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnUpdateKH;
+        private System.Windows.Forms.Button btnViewKH;
         private System.Windows.Forms.Panel panel3;
         private CustomClassLibrary.CustomPlaceholderTextbox txtTimKiem;
         private System.Windows.Forms.DataGridView dgvKH;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button txtSLKH;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnViewHD;
     }
 }

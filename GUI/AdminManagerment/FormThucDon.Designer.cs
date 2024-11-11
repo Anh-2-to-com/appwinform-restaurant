@@ -32,13 +32,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnUpdateMA = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.txtTimKiem = new CustomClassLibrary.CustomPlaceholderTextbox();
             this.dgvMonAn = new System.Windows.Forms.DataGridView();
             this.btnAddMA = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtTimKiem = new CustomClassLibrary.CustomPlaceholderTextbox();
             this.txtSLMon = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -85,6 +85,18 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(314, 30);
             this.panel3.TabIndex = 37;
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtTimKiem.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTimKiem.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimKiem.ForeColor = System.Drawing.Color.Black;
+            this.txtTimKiem.Location = new System.Drawing.Point(29, 5);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.PlaceholderText = null;
+            this.txtTimKiem.Size = new System.Drawing.Size(285, 23);
+            this.txtTimKiem.TabIndex = 36;
             // 
             // dgvMonAn
             // 
@@ -154,18 +166,6 @@
             this.label2.TabIndex = 39;
             this.label2.Text = "Số món ăn đang kinh doanh";
             // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.BackColor = System.Drawing.Color.Gainsboro;
-            this.txtTimKiem.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTimKiem.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiem.ForeColor = System.Drawing.Color.Black;
-            this.txtTimKiem.Location = new System.Drawing.Point(29, 5);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.PlaceholderText = null;
-            this.txtTimKiem.Size = new System.Drawing.Size(285, 23);
-            this.txtTimKiem.TabIndex = 36;
-            // 
             // txtSLMon
             // 
             this.txtSLMon.Enabled = false;
@@ -189,7 +189,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormThucDon";
             this.Text = "FormThucDon";
             this.panel2.ResumeLayout(false);

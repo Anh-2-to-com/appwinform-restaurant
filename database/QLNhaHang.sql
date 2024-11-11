@@ -999,12 +999,34 @@ select * from QL_NhomNguoiDung
 select * from QL_NguoiDungNhomNguoiDung
 select * from NhanVien
 select * from QL_PhanQuyen
-
 select * from nhanvien
 select * from CTHD
 select * from monan
 select * from ban
 select * from KHACHHANG
+select * from hoadon
+select * from NGUYENLIEU
+select * from CTHD
 
 
+insert into KHACHHANG values('KH001', N'Nguyễn Văn A', '2024-11-10', 2000000, 1000, 'ND004', null, '2003-02-25', '03512544', 'Long An')
+insert into KHACHHANG values('KH002', N'Nguyễn Văn B', '2024-11-10', 2000000, 1000, 'ND003', null, '2003-02-25', '03512544', 'Long An')
 INSERT INTO NhanVien(ID_NV,TenNV,NGAYVAOLAM,SDT,Chucvu,ID_ND,ID_NQL,Tinhtrang) VALUES ('NV001','Admin','2024-11-08','0838033234','Quan ly','ND001', null, N'Đang làm việc')
+
+insert into HOADON values('HD001', 'KH001', '100', '2024-11-11', 1750000, null, null, 1750000, 'Da thanh toan')
+insert into HOADON values('HD002', 'KH001', '100', '2024-11-11', 1750000, null, null, 1750000, 'Da thanh toan')
+insert into HOADON values('HD004', 'KH001', '102', '2024-11-11', 1750000, null, null, 1750000, 'Da thanh toan')
+insert into HOADON values('HD003', 'KH002', '111', '2024-11-11', 1750000, null, null, 1750000, 'Da thanh toan')
+
+insert into CTHD values('HD001', '1', 2, 10000)
+insert into CTHD values('HD001', '11', 1, 10000)
+insert into CTHD values('HD001', '54', 3, 10000)
+insert into CTHD values('HD001', '21', 4, 10000)
+insert into CTHD values('HD001', '22', 5, 10000)
+insert into CTHD values('HD003', '45', 1, 10000)
+insert into CTHD values('HD003', '44', 2, 10000)
+insert into CTHD values('HD003', '32', 3, 10000)
+
+
+
+

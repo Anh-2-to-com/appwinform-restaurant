@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminManagerment\FormDetailHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManagerment\FormDetailHoaDon.Designer.cs">
+      <DependentUpon>FormDetailHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManagerment\FormDetailKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManagerment\FormDetailKhachHang.Designer.cs">
+      <DependentUpon>FormDetailKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminManagerment\FormKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +100,12 @@
     </Compile>
     <Compile Include="AdminManagerment\FormThucDon.Designer.cs">
       <DependentUpon>FormThucDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManagerment\FormViewHoaDonKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManagerment\FormViewHoaDonKH.Designer.cs">
+      <DependentUpon>FormViewHoaDonKH.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -133,6 +151,12 @@
     <Compile Include="AccountManagement\FormPhanQuyen.Designer.cs">
       <DependentUpon>FormPhanQuyen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminManagerment\FormDetailHoaDon.resx">
+      <DependentUpon>FormDetailHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManagerment\FormDetailKhachHang.resx">
+      <DependentUpon>FormDetailKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminManagerment\FormKhachHang.resx">
       <DependentUpon>FormKhachHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminManagerment\FormThucDon.resx">
       <DependentUpon>FormThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManagerment\FormViewHoaDonKH.resx">
+      <DependentUpon>FormViewHoaDonKH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>

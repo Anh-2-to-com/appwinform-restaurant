@@ -42,13 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietHDDTO.cs" />
     <Compile Include="ChucVuItemDTO.cs" />
     <Compile Include="DB_QLNhaHang.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DB_QLNhaHang.dbml</DependentUpon>
     </Compile>
+    <Compile Include="HoaDonDTO.cs" />
     <Compile Include="KhachHangDTO.cs" />
+    <Compile Include="KhachHangNguoiDungDTO.cs" />
     <Compile Include="NguoiDungDTO.cs" />
     <Compile Include="NhanVienDTO.cs" />
     <Compile Include="PhanQuyenDTO.cs" />

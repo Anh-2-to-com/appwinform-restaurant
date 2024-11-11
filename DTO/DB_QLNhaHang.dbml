@@ -25,7 +25,7 @@
       <Column Name="ID_HOADON" Type="System.String" DbType="VarChar(16) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="ID_MONAN" Type="System.String" DbType="VarChar(16) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="SOLUONG" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="THANHTIEN" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="DONGIA" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
       <Association Name="HOADON_CTHD" Member="HOADON" ThisKey="ID_HOADON" OtherKey="ID_HOADON" Type="HOADON" IsForeignKey="true" />
       <Association Name="MONAN_CTHD" Member="MONAN" ThisKey="ID_MONAN" OtherKey="ID_MONAN" Type="MONAN" IsForeignKey="true" />
     </Type>
